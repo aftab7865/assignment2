@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assignment2.css">
+</head>
+<body>
+    <p style="color:blue;"> this is  first paragraph</p>
+    <p style="background-color:goldenrod;"> this is  first  <i> second</i></p>
+    <p> this is  first  <b> third</b></p>
+    <p"> this is  first  <u> fourth</u></p>
+
+
+    <div class="b1">
+      <p>Integral University is a private university in Lucknow, the capital of Uttar Pradesh, India, It is located in the North-eastern part of the city in Dashauli, approximately 17Km from the centre of the City. Integral University, the first enacted Minority University in the country, started functioning from 1 April 2004. Integral University was accorded recognition by U.G.C. under section 2(f) of U.G.C. Act, 1956. The university was founded in 2004.</p>
+    </div>
+
+    <div class="b2">
+        <label for=""> Enter your name</label>
+        <input type="text"> 
+        <br>
+
+        <label for=""> Enter your age</label>
+        <input type="date">
+        <br>
+
+        <label for=""> Enter your address </label>
+        <input type="text">
+        <br>
+
+        <label for=""> your favorit subject</label>
+        <input type="text"> <br>
+
+        <label for="" > your favorit movie </label>
+        <input type="text"> <br>
+
+        <label for=""> your favorit singer</label>
+        <input type="text">
+        <br>
+
+    </div>
+
+
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
+    
+
+
+<div class="b4" id="b4">
+    <p>The foundation stone was laid on 3 November 1993 by Abul Hasan Ali Hasani Nadwi, rector of Darul-uloom Nadwatul Ulama as Institute of Integral Technology, Lucknow. The main building was inaugurated by the then governor of Uttar Pradesh Motilal Vora on 14 January 1996. An engineering college was simultaneously established by the Islamic Council for Productive Education (ICPE) in 1997, which started functioning in 1998 with two courses; Computer Science Engineering, and Electronics Engineering. Later other courses like Architecture, Information Technology, Mechanical Engineering, Civil Engineering and Master of Computer Application were added. Atal Bihari Vajpayee, the then prime minister of India, laid the foundation stone of a residential complex on 30 June 1999. During his speech he expressed his hope that the Institute of Integral Technology, Lucknow having the abbreviation IIT will maintain the same standard as the other IITs do. The Institute then affiliated to Uttar Pradesh Technical University.</p>
+</div>
+
+
+<div class="b5">
+    <label for=""> enter your username</label>
+    <br>
+    <input type="text" id="user">
+    <br>
+    <label for=""> enter password</labedl>
+        
+        <br>
+        <input type="password" id="pass">
+
+        <button onclick="fun1()"> Submit</button>
+</div>
+<script type="text/javascript">
+    document.getElementById("b4").style.animation = "time 0s 1 4s"
+     
+function fun1(){
+    let user  = document.getElementById("user").value;
+    let pass = document.getElementById("pass").value;
+    if( user===""){
+        alert("please enter your name");
+
+    }
+    else if(pass===""){
+        alert(" please enter password");
+    }
+    
+}
+
+</script>
+</body>
+</html>
